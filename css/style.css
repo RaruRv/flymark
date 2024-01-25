@@ -44,13 +44,12 @@ a#toTop{
 }
 /*-- header_top --*/
 .top-header{
-	background:#333;
+	/* background:#333;
 	position: relative;
-	padding:1em 0;
+	padding:1em 0; */
 }
 .logo{
 	position:absolute;
-	top:0;
 	z-index:999;
 	
 }
@@ -60,8 +59,8 @@ a#toTop{
 	margin-right:5px;
 }
 .logo a{
-	background: #73eac4;
-  padding: 1.6em 0.7em;
+	/* background: #73eac4; */
+  padding: 0.25rem;
   display:inline-block;
 }
 .logo h1 a{
@@ -86,6 +85,10 @@ ul.nav.navbar-nav li{
 }
 .top-menu {
     border-bottom: 1px solid #e7e7e7;
+}
+.top-menu .container{
+    display: flex;
+    align-items: center;
 }
 .navbar-default {
     background-color: transparent;  
@@ -1045,7 +1048,7 @@ ul.nav.navbar-nav li a {
     padding: 2em 1.5em;
 }
 .logo a {
-    padding: 1.5em 0.5em;
+    padding: 0.75rem;
 }
 .content.white {
     margin-left: 10.8em;
@@ -1280,7 +1283,7 @@ ul.nav.navbar-nav li a {
 }
 @media (max-width: 640px){
 .top-header {
-    padding: 0.6em 0;
+    /* padding: 0.6em 0; */
 }
 .content.white {
     width: 100%;
@@ -1300,7 +1303,7 @@ ul.nav.navbar-nav li a {
     font-size: 0.8em;
 }
 .logo a {
-    padding: 1.5em 0.5em;
+    padding: 0;
 }
 ul.nav.navbar-nav li {
     border-right:none;
