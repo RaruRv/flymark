@@ -32,6 +32,7 @@ body a{
 	-ms-transition:0.5s all;
 	text-decoration:none;
 }
+
 .row{
 	margin:0;
 }	
@@ -1643,4 +1644,11 @@ i.strp {
 .map iframe {
     min-height: 185px;
 }
+}
+
+.service-info{
+    border: none !important;
+}
+.service-top p{
+    width: 100% !important;
 }
